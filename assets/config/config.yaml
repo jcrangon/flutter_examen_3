@@ -81,7 +81,7 @@ regions:
   Pays de la Loire:
     nom: 'Pays de la Loire'
     iso: 'FR-PDL'
-    num: '52'
+    code: '52'
   Provence-Alpes-Côte dAzur:
     nom: 'Provence-Alpes-Côte dAzur'
     iso: 'FR-PAC'
