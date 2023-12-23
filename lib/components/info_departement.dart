@@ -136,10 +136,8 @@ class _InfoDepartementState extends State<InfoDepartement> {
         }
 
         // By default, show a loading spinner.
-        return const Expanded(
-          child: Center(
+        return const Center(
             child: CircularProgressIndicator(),
-          ),
         );
       },
     );

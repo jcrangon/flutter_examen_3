@@ -30,12 +30,7 @@ class DepartmentPage extends StatelessWidget {
         ),
       ),
       drawer: SlideMenu(config: config, currentPage: config.get('page-name.info-region')),
-      body: Flexible(
-              child: InfoRegion(config: config, regionName: regionName, regionCode: regionCode),
-        )
-      
-      
-      
+      body: InfoRegion(config: config, regionName: regionName, regionCode: regionCode),
     );
   }
 }

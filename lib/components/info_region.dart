@@ -115,10 +115,8 @@ class _InfoRegionState extends State<InfoRegion> {
         }
 
         // By default, show a loading spinner.
-        return const Expanded(
-          child: Center(
+        return const Center(
             child: CircularProgressIndicator(),
-          ),
         );
       },
     );

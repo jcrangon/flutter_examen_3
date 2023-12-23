@@ -30,11 +30,7 @@ class CommunePage extends StatelessWidget {
         ),
       ),
       drawer: SlideMenu(config: config, currentPage: config.get('page-name.info-departement')),
-      body: Flexible(
-              child: InfoDepartement(config: config, departementName: departementName, departementCode: departementCode),
-        )
-      
-      
+      body: InfoDepartement(config: config, departementName: departementName, departementCode: departementCode),
       
     );
   }
